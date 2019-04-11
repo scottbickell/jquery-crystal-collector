@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector app</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col">
+                <h1>Crystal Collector</h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <h2>Instructions:</h2>
+                <ol>
+                    <li>The player will be shown a random number at the start of the game.</li>
+                    <li>There will be four crystals displayed as buttons on the page.</li>
+                    <li>When the player clicks on a crystal, it will add a specific amount of points to the player's
+                        total score.</li>
+                    <li>The player wins if their total score matches the random number from the beginning of the game.
+                    </li>
+                    <li>The player loses if their score goes above the random number.</li>
+                    <li>The game restarts whenever the player wins or loses.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-9 focus">
+                <h2>Number to match: <span id="numberToMatch"></span></h2>
+            </div>
+            <div class="col-md-3">
+                <h3>Wins: <span id="wins"></span></h3>
+                <h3>Losses: <span id="losses"></span></h3>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col-md-3">
+                <img src="assets/images/yellow.jpg" class="img-thumbnail yellow" width="200" height="200" />
+            </div>
+
+            <div class="col-md-3">
+                <img src="assets/images/blue.jpg" class="img-thumbnail blue" width="200" height="200" />
+            </div>
+
+            <div class="col-md-3">
+                <img src="assets/images/green.jpg" class="img-thumbnail green" width="200" height="200" />
+            </div>
+            <div class="col-md-3">
+                <img src="assets/images/red.jpg" class="img-thumbnail red" width="200" height="200" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h3>Your total score is: <span id="totalScore"></span></h3>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

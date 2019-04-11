@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.focus {
+    background: #f2f2f2;
+    border-left: 5px solid orange;
+}
+
+.focus h2 {
+    margin-top: 1.2rem;
+    font-weight: 700;
+}
+#totalScore {
+    font-weight: 700;
+    color: orange;
+}
